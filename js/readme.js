@@ -46,7 +46,7 @@ $(document).ready(function()
   {
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
-    $("#readme").append("<div id='readmeTitle'>All Purpose Converter</div>");
+    $("#readme").append("<div id='readmeTitle'>Converter</div>");
     $("#readme").append("<div id='readmeText'>A simple converter that works with several different measurements.<br><br>Date created: June 8, 2016<br>Technologies used: HTML, CSS, JavaScript</div>");
     $("#readmeExit").click(function()
     {

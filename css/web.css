@@ -30,6 +30,7 @@
   -ms-transition: all .25s;
   transition: all .25s;
   color: black !important;
+  z-index: 1000;
 }
 #readmeExit:hover
 {
@@ -367,6 +368,18 @@ body
     /*background: url(../images/pattern.jpg) center center fixed;*/
     /*background-size: cover;*/
     /*background-size: contain;*/
+  }
+  #readmeTitle
+  {
+    top: 10vh;
+    font-size: 3em;
+    line-height: 120%;
+  }
+  #readmeText
+  {
+    /*top: 25vh;*/
+    line-height: 100%;
+    font-size: 1.5em;
   }
   .item
   {
