@@ -61,7 +61,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>The House</div>");
-    $("#readme").append("<div id='readmeText'>The House is a simple escape game based on the old escape game. Click around to explore the house, pick up items and find your way out.<br><br>Date created: July 10, 2016<br>Technologies used: HTML, CSS, JavaScript, jQuery</div>");
+    $("#readme").append("<div id='readmeText'>The House is a simple escape game based on the old escape games. Click around to explore the house, pick up items and find your way out.<br><br>Date created: July 10, 2016<br>Technologies used: HTML, CSS, JavaScript, jQuery</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
