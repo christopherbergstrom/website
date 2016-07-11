@@ -49,6 +49,7 @@
   /*text-align: center;*/
   font-size: 4em;
   font-weight: bold;
+  line-height: 120%;
 }
 #readmeText
 {
@@ -58,7 +59,7 @@
   top: 30vh;
   font-size: 2em;
   text-align: left;
-  line-height: 200%;
+  line-height: 120%;
 }
 .menu
 {
