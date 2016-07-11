@@ -57,6 +57,7 @@
   top: 30vh;
   font-size: 2em;
   text-align: left;
+  line-height: 200%;
 }
 .menu
 {
@@ -198,7 +199,7 @@ body
 }
 .mobileSpace
 {
-  margin-bottom: 3%;
+  /*margin-bottom: 3%;*/
 }
 .webLink
 {
@@ -231,6 +232,7 @@ body
 .descLinks
 {
   position: relative;
+  margin-top: 5%;
   width: 90%;
   left: 5%;
 }
@@ -276,11 +278,6 @@ body
   background: url("../images/typeFaster.png") no-repeat center center;
   background-size: cover;
 }
-#superWikiPic
-{
-  background: url("../images/superWiki.png") no-repeat center center;
-  background-size: cover;
-}
 #tic-tac-toePic
 {
   background: url("../images/tic-tac-toe.png") no-repeat center center;
@@ -289,6 +286,11 @@ body
 #converterPic
 {
   background: url("../images/converter.png") no-repeat center center;
+  background-size: cover;
+}
+#theHousePic
+{
+  background: url("../images/theHouse.png") no-repeat center center;
   background-size: cover;
 }
 #clickItPic
