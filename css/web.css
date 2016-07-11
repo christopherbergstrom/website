@@ -235,8 +235,10 @@ body
 {
   position: relative;
   margin-top: 5%;
+  /*margin-bottom: 5%;*/
   width: 90%;
   left: 5%;
+  /*z-index: 100;*/
 }
 .pdf
 {
