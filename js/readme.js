@@ -19,7 +19,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Type Faster</div>");
-    $("#readme").append("<div id='readmeText'>Type Faster helps you type faster. It grabs a random word from a MySQL database of over 2000 words and you type as many as you can before the time runs out. You can make up to 3 mistakes before the game is over.<br><br>Date created: March 4, 2016<br>Technologies used: Java, JPA, JPQL, Spring MVC, MySQL, HTML, CSS, JavaScript</div>");
+    $("#readme").append("<div id='readmeText'>Type Faster helps you type faster. It grabs a random word from a MySQL database of over 2000 words and you type as many as you can before the time runs out. You can make up to 3 mistakes before the game is over. This website uses local storage to remember your last high score initials entered.<br><br>Date created: March 4, 2016<br>Technologies used: Java, JPA, JPQL, Spring MVC, MySQL, HTML, CSS, JavaScript</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
@@ -75,7 +75,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Click It</div>");
-    $("#readme").append("<div id='readmeText'>Click It is an original game where you have to click as many colored dots as you can in 30 seconds. This game works best on touch screen devices.<br><br>Date created: April 3, 2016<br>Technologies used: Java, JPA, JPQL, Spring MVC, MySQL, HTML, CSS, JavaScript</div>");
+    $("#readme").append("<div id='readmeText'>Click It is an original game where you have to click as many colored dots as you can in 30 seconds. This game works best on touch screen devices. This website uses local storage to remember your last high score initials entered.<br><br>Date created: April 3, 2016<br>Technologies used: Java, JPA, JPQL, Spring MVC, MySQL, HTML, CSS, JavaScript</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
