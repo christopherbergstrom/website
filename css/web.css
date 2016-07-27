@@ -173,8 +173,9 @@ body
 }
 #about
 {
-  background: url("../images/me.jpg") no-repeat center;
+  background: url("../images/me.jpeg") no-repeat center;
   background-size: cover;
+  /*background-size: contain;*/
   box-shadow: 0px 0px 30px 10px #000000;
   /*-ms-transform: rotate(90deg);*/
   /* IE 9 */
@@ -228,12 +229,12 @@ body
 }
 .webLink:active
 {
-  color: #d1e0e0;
+  color: #ffffff;
   text-decoration: none;
 }
 .webLink:visited
 {
-  color: #d1e0e0;
+  color: #ffffff;
   text-decoration: none;
 }
 .descLinks
