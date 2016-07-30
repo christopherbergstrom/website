@@ -305,9 +305,9 @@ body
   background: url("../images/converter.png") no-repeat center center;
   background-size: cover;
 }
-#theHousePic
+#mazePic
 {
-  background: url("../images/theHouse.png") no-repeat center center;
+  background: url("../images/maze.png") no-repeat center center;
   background-size: cover;
 }
 #clickItPic

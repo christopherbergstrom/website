@@ -56,12 +56,12 @@ $(document).ready(function()
       });
     });
   });
-  $("#theHouseReadme").click(function()
+  $("#mazeReadme").click(function()
   {
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
-    $("#readme").append("<div id='readmeTitle'>The House</div>");
-    $("#readme").append("<div id='readmeText'>The House is a simple escape game based on the old escape games. Click around to explore the house, pick up items and find your way out.<br><br>Date created: July 10, 2016<br>Technologies used: HTML, CSS, JavaScript, jQuery</div>");
+    $("#readme").append("<div id='readmeTitle'>Mazerator</div>");
+    $("#readme").append("<div id='readmeText'>Mazerator is a game that uses an algorithm to make a new maze every time you play. Watch the maze create itself and then move the blue square from the green square to the red square using the arrow keys.<br><br>Date created: July 29, 2016<br>Technologies used: HTML, CSS, JavaScript, jQuery</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
