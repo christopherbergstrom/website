@@ -63,12 +63,12 @@
 }
 .menu
 {
-  /*position: fixed;*/
-  position: relative;
-  /*width: 100%;*/
+  position: fixed;
+  /*position: relative;*/
+  width: 100%;
   padding-top: 1%;
   padding-bottom: 1%;
-  /*z-index: 1000;*/
+  z-index: 1000;
   background-color: black;
   /*border-left: 3px solid #008060;*/
   border-bottom: 3px solid #00e6ac;
@@ -78,6 +78,49 @@
   -webkit-border-image: -webkit-linear-gradient(left, #008060 0%, #00e6ac 100%);
   border-image: linear-gradient(to right, #008060 0%, #00e6ac 100%);
   border-image-slice: 1;*/
+}
+.menuItem
+{
+  position: relative;
+  text-align: center;
+}
+.menuItemMiddle
+{
+  position: relative;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+#menuTitle
+{
+  text-align: center;
+  font-size: 2em;
+}
+.menuBody
+{
+  text-align: center;
+  display: inline-block;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+#about
+{
+  position: relative;
+  padding-top: 35vh;
+  /*background: url(../images/pattern.jpg);*/
+}
+#portfolio
+{
+  position: relative;
+  /*margin-top: -10%;*/
+  padding-top: 40vh;
+  /*padding-bottom: 20vh;*/
+  /*background: url(../images/superWiki.png);*/
+}
+.down
+{
+  font-size: 6em;
+  margin-bottom: -10vh;
 }
 .icons
 {
@@ -135,9 +178,9 @@ body
 }
 .item
 {
-  position: relative;
-  margin-top: 10%;
-  margin-bottom: 5%;
+  /*position: relative;*/
+  /*margin-top: 10%;*/
+  /*margin-bottom: 5%;*/
   display: flex;
   align-items: center;
 }
@@ -160,18 +203,18 @@ body
 }
 .topic
 {
-  border-right: 3px solid #00e6ac;
+  /*border-right: 3px solid #00e6ac;*/
 }
 .picPosition
 {
   position: relative;
   font-size: 15vw;
-  width: 15vw;
-  height: 15vw;
+  width: 25vw;
+  height: 25vw;
   margin-left: auto;
   margin-right: auto;
 }
-#about
+#me
 {
   background: url("../images/me.jpg") no-repeat center;
   background-size: cover;
@@ -252,12 +295,6 @@ body
   margin-bottom: 5%;
   box-shadow: 0px 0px 30px 10px #000000;
 }
-.achievmentsPdf
-{
-  margin-top: 10%;
-  /*margin-bottom: 5%;*/
-  box-shadow: 0px 0px 30px 10px #000000;
-}
 .title
 {
   position: relative;
@@ -315,68 +352,6 @@ body
   background: url("../images/clickIt.png") no-repeat center center;
   background-size: cover;
 }
-#badgeText
-{
-  position: relative;
-  margin-top: 2%;
-  margin-bottom: 10%;
-  font-size: 3em;
-}
-.badgePic
-{
-  width: 35vh;
-  height: 45vh;
-  display: inline-block;
-  /*-moz-box-shadow:    inset 0 0 10px #000000;
-  -webkit-box-shadow: inset 0 0 10px #000000;
-  box-shadow:         inset 0 0 10px #000000;*/
-  box-shadow: 0px 0px 30px 10px #000000;
-}
-#CL
-{
-  background: url("../images/CL.png") no-repeat center center;
-  background-size: cover;
-}
-#jQueryUnits
-{
-  background: url("../images/jQueryUnits.png") no-repeat center center;
-  background-size: cover;
-}
-#jQueryLessons
-{
-  background: url("../images/jQueryLessons.png") no-repeat center center;
-  background-size: cover;
-}
-#jsUnits
-{
-  background: url("../images/jsUnits.png") no-repeat center center;
-  background-size: cover;
-}
-#jsLessons
-{
-  background: url("../images/jsLessons.png") no-repeat center center;
-  background-size: cover;
-}
-#git
-{
-  background: url("../images/git.png") no-repeat center center;
-  background-size: cover;
-}
-#java
-{
-  background: url("../images/java.png") no-repeat center center;
-  background-size: cover;
-}
-#htmlCssUnits
-{
-  background: url("../images/htmlCssUnits.png") no-repeat center center;
-  background-size: cover;
-}
-#htmlCssLessons
-{
-  background: url("../images/htmlCssLessons.png") no-repeat center center;
-  background-size: cover;
-}
 @media only screen and (max-device-width: 480px)
 {
   body
@@ -415,22 +390,21 @@ body
     left: 10%;
     margin-bottom: 5%;
     border-right: 0;
-    border-bottom: 3px solid #00e6ac;
+    /*border-bottom: 3px solid #00e6ac;*/
   }
-  #about
+  #me
   {
-    width: 30vw;
-    height: 30vw;
+    /*width: 30vw;
+    height: 30vw;*/
   }
   .picPosition
   {
     position: relative;
-    /*border-radius: 50%;*/
-    font-size: 30vw;
-    width: 30vw;
-    height: 30vw;
+    width: 100vw;
+    height: 100vw;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 5%;
     margin-bottom: 5%;
   }
   .topicText
@@ -454,15 +428,5 @@ body
   {
     width: 90%;
     height: 70%;
-  }
-  .achievmentsPdf
-  {
-    width: 90%;
-    height: 70%;
-  }
-  .badgePic
-  {
-    width: 40vh;
-    height: 50vh;
   }
 }

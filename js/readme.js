@@ -61,7 +61,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Mazerator</div>");
-    $("#readme").append("<div id='readmeText'>Mazerator is a game that uses an algorithm to make a new maze every time you play. Watch the maze create itself and then move the blue square from the green square to the red square using the arrow keys.<br><br>Date created: July 29, 2016<br>Technologies used: HTML, CSS, JavaScript, jQuery</div>");
+    $("#readme").append("<div id='readmeText'>Mazerator is a game that uses an algorithm to make a new maze every time you play. Choose whether or not you want to watch your maze create itself and then move the colored square from the green square to the red square using either the mouse or the arrow keys.<br><br>Date created: July 29, 2016<br>Technologies used: HTML, CSS, JavaScript, jQuery</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
