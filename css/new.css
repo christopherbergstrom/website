@@ -1,7 +1,7 @@
 @font-face
 {
-   font-family: Earth Orbiter;
-   src: url(../fonts/earthorbiter.ttf);
+ font-family: Earth Orbiter;
+ src: url(../fonts/earthorbiter.ttf);
 }
 .readme
 {
@@ -12,11 +12,14 @@
   position: fixed;
   left: 0;
   top: 0;
+  right: 0;
+  bottom: 0;
   width: 100%;
   height: 100%;
   background-color: white;
   color: black;
   line-height: 200%;
+  z-index: 101;
 }
 #readmeExit
 {
@@ -30,7 +33,7 @@
   -ms-transition: all .25s;
   transition: all .25s;
   color: black !important;
-  z-index: 1000;
+  z-index: 102;
 }
 #readmeExit:hover
 {
@@ -56,8 +59,8 @@
   position: absolute;
   left: 10vw;
   right: 10vw;
-  top: 30vh;
-  font-size: 2em;
+  top: 35vh;
+  font-size: 1.5em;
   text-align: left;
   line-height: 120%;
 }
@@ -68,7 +71,7 @@
   width: 100%;
   padding-top: 1%;
   padding-bottom: 1%;
-  z-index: 1000;
+  z-index: 100;
   background-color: black;
   /*border-left: 3px solid #008060;*/
   border-bottom: 3px solid #00e6ac;
@@ -107,15 +110,11 @@
 {
   position: relative;
   padding-top: 35vh;
-  /*background: url(../images/pattern.jpg);*/
 }
 #portfolio
 {
   position: relative;
-  /*margin-top: -10%;*/
-  padding-top: 40vh;
-  /*padding-bottom: 20vh;*/
-  /*background: url(../images/superWiki.png);*/
+  padding-top: 30vh;
 }
 .down
 {
@@ -428,5 +427,12 @@ body
   {
     width: 90%;
     height: 70%;
+  }
+}
+@media only screen and (max-device-width: 480px) and (orientation : landscape)
+{
+  #portfolio
+  {
+    padding-top: 40vh;
   }
 }
