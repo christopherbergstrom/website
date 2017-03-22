@@ -101,7 +101,8 @@
 #about
 {
   position: relative;
-  padding-top: 35vh;
+  padding-top: 32vh;
+  margin-top: 4%;
 }
 #portfolio
 {
@@ -167,11 +168,6 @@ body
   background-size: cover;
   /*background-size: contain;*/
 }
-.item
-{
-  display: flex;
-  align-items: center;
-}
 .projectRowTop
 {
   position: relative;
@@ -184,30 +180,31 @@ body
 .picPosition
 {
   position: relative;
-  font-size: 15vw;
-  width: 25vw;
-  height: 25vw;
+  width: 30vw;
+  height: 30vw;
   margin-left: auto;
   margin-right: auto;
+  /*margin-top: 5%;*/
+  margin-bottom: 5%;
 }
 #me
 {
-  background: url("../images/me.jpg") no-repeat center;
+  background: url("../images/me.jpg") no-repeat center center;
   background-size: cover;
   /*background-size: contain;*/
   box-shadow: 0px 0px 30px 10px #000000;
-  /*-ms-transform: rotate(90deg);*/
-  /* IE 9 */
-  /*-webkit-transform: rotate(90deg);*/
-  /* Chrome, Safari, Opera */
-  /*transform: rotate(90deg);*/
+  -ms-transform: rotate(90deg);
+   /*IE 9*/
+  -webkit-transform: rotate(90deg);
+   /*Chrome, Safari, Opera*/
+  transform: rotate(90deg);
   /*border: 3px solid #008060;*/
 }
 .text
 {
   position: relative;
   text-align: left;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 .link
 {
@@ -218,7 +215,6 @@ body
 {
   color: #33ccff;
   cursor: pointer;
-  /*text-decoration: underline !important;*/
 }
 .mobileSpace
 {
@@ -256,25 +252,23 @@ body
 {
   position: relative;
   margin-top: 5%;
-  /*margin-bottom: 5%;*/
   width: 90%;
   left: 5%;
-  /*z-index: 100;*/
 }
 .title
 {
   position: relative;
-  font-size: 2.5em;
+  font-size: 3em;
   color: #ffffff;
   border-bottom: 1px solid #ffffff;
-  width: 90%;
-  left: 5%;
+  width: 80%;
+  left: 10%;
   line-height: 200%;
 }
 .projectPicPosition
 {
-  width: 90%;
-  height: 30vh;
+  width: 80%;
+  height: 50vh;
   display: inline-block;
   box-shadow: 0px 0px 30px 10px #000000;
 }
@@ -310,12 +304,6 @@ body
 }
 @media only screen and (max-device-width: 480px)
 {
-  body
-  {
-    /*background: url(../images/pattern.jpg) center center fixed;*/
-    /*background-size: cover;*/
-    /*background-size: contain;*/
-  }
   #readmeTitle
   {
     top: 10vh;
@@ -324,30 +312,18 @@ body
   }
   #readmeText
   {
-    /*top: 25vh;*/
     line-height: 100%;
     font-size: 1.5em;
-  }
-  .item
-  {
-    height: auto;
-    text-align: center;
-    display: block;
   }
   .mobileSpace
   {
     margin-bottom: 20%;
   }
-  #me
-  {
-    /*width: 30vw;
-    height: 30vw;*/
-  }
   .picPosition
   {
     position: relative;
-    width: 100vw;
-    height: 100vw;
+    width: 80vw;
+    height: 80vw;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
@@ -359,17 +335,30 @@ body
     display: block;
     width: 80vw;
     left: 10%;
-    font-size: 1.5em;
+    font-size: 2em;
   }
   .title
   {
-    font-size: 2em;
+    font-size: 2.5em;
+  }
+  #about
+  {
+    margin-top: -5%;
   }
 }
 @media only screen and (max-device-width: 480px) and (orientation : landscape)
 {
-  #portfolio
+  .menu
   {
-    padding-top: 40vh;
+    position: relative;
+  }
+  .picPosition
+  {
+    width: 50vw;
+    height: 50vw;
+  }
+  #about
+  {
+    margin-top: -5%;
   }
 }
