@@ -33,7 +33,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Tic-Tac-Toe</div>");
-    $("#readme").append("<div id='readmeText'>This Tic-Tac-Toe game can be played with a friend or against a fully functional AI.<br><br>Date created: May 23, 2016<br>Technologies used: HTML, CSS, JavaScript</div>");
+    $("#readme").append("<div id='readmeText'>This Tic-Tac-Toe game can be played with either a friend or against a fully functional AI.<br><br>Date created: May 23, 2016<br>Technologies used: HTML, CSS, JavaScript</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
@@ -47,7 +47,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Converter</div>");
-    $("#readme").append("<div id='readmeText'>A simple converter that works with several different measurements.<br><br>Date created: June 8, 2016<br>Technologies used: HTML, CSS, JavaScript</div>");
+    $("#readme").append("<div id='readmeText'>A converter that works with many different measurements which was styled after Google's unit converter<br><br>Date created: June 8, 2016<br>Technologies used: HTML, CSS, JavaScript</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
@@ -61,7 +61,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Mazerator</div>");
-    $("#readme").append("<div id='readmeText'>Mazerator is a game that uses an algorithm to make a new maze every time you play. Choose whether or not you want to watch your maze create itself and then move the colored square from the green square to the red square using either the mouse or the arrow keys.<br><br>Date created: July 29, 2016<br>Technologies used: HTML, CSS, JavaScript, jQuery</div>");
+    $("#readme").append("<div id='readmeText'>Mazerator is a game that uses an algorithm to make a new maze every time you play. Choose if you want to watch the maze create itself and then move the colored square from the green square to the red square using either the mouse or the arrow keys.<br><br>Date created: July 29, 2016<br>Technologies used: HTML, CSS, JavaScript, jQuery</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
