@@ -37,7 +37,7 @@
   -moz-transition: all .25s;
   -ms-transition: all .25s;
   transition: all .25s;
-  color: #33ccff !important;
+  color: #99ff66 !important;
 }
 #readmeTitle
 {
@@ -66,10 +66,13 @@
   padding-top: 1%;
   padding-bottom: 1%;
   z-index: 100;
-  background-color: #000000;
+  /*background-color: #000000;*/
+  /*opacity: 0.5;*/
   /*border-left: 3px solid #008060;*/
-  border-bottom: 3px solid #33ccff;
+  border-bottom: 3px solid #99ff66;
   box-shadow: 0px 0px 30px 10px #000000;
+  background: url("../images/mountain.jpg") no-repeat center;
+  background-size: cover;
   /*border-bottom: 3px solid transparent;
   -moz-border-image: -moz-linear-gradient(left, #008060 0%, #33ccff 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #008060 0%, #33ccff 100%);
@@ -90,7 +93,13 @@
 }
 #menuTitle
 {
+  color: #000000;
   font-size: 2em;
+  text-shadow:
+  -1px -1px 0 #99ff66,
+  1px -1px 0 #99ff66,
+  -1px 1px 0 #99ff66,
+  1px 1px 0 #99ff66;
 }
 .menuBody
 {
@@ -129,16 +138,7 @@
   -moz-transition: all .25s;
   -ms-transition: all .25s;
   transition: all .25s;
-  color: #33ccff !important;
-}
-.active
-{
-  font-size: 2em;
-  color: #33ccff !important;
-}
-.active:hover
-{
-  color: #33ccff;
+  color: #99ff66 !important;
 }
 .copyright
 {
@@ -150,8 +150,10 @@
   /*z-index: 1000;*/
   text-align: center;
   background-color: #000000;
-  border-top: 3px solid #33ccff;
+  border-top: 3px solid #99ff66;
   box-shadow: 0px 0px 30px 10px #000000;
+  /*background: url("../images/mountain.jpg") no-repeat center;*/
+  /*background-size: cover;*/
   /*border-top: 3px solid transparent;
   -moz-border-image: -moz-linear-gradient(left, #008060 0%, #33ccff 100%);
   -webkit-border-image: -webkit-linear-gradient(left, #008060 0%, #33ccff 100%);
@@ -208,12 +210,12 @@ body
 }
 .link
 {
-  color: #33ccff !important;
+  color: #99ff66 !important;
   text-decoration: none !important;
 }
 .link:hover
 {
-  color: #33ccff;
+  color: #99ff66;
   cursor: pointer;
 }
 .mobileSpace
@@ -235,7 +237,7 @@ body
 }
 .webLink:hover
 {
-  border: 3px solid #33ccff;
+  border: 3px solid #99ff66;
   text-decoration: none;
 }
 .webLink:active
