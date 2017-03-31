@@ -13,8 +13,8 @@
   height: 100%;
   background-color: #000000;
   color: #ffffff;
-  line-height: 200%;
   z-index: 101;
+  overflow-y: auto;
 }
 #readmeExit
 {
@@ -54,6 +54,7 @@
   left: 10vw;
   right: 10vw;
   top: 35vh;
+  padding-bottom: 5vh;
   font-size: 1.5em;
   text-align: left;
   line-height: 120%;
@@ -314,7 +315,8 @@ body
   }
   #readmeText
   {
-    line-height: 100%;
+    top: 25vh;
+    line-height: 120%;
     font-size: 1.5em;
   }
   .mobileSpace
@@ -350,6 +352,10 @@ body
 }
 @media only screen and (max-device-width: 480px) and (orientation : landscape)
 {
+  #readmeText
+  {
+    top: 35vh;
+  }
   .menu
   {
     position: relative;
