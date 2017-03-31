@@ -5,7 +5,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Programmer Q&A</div>");
-    $("#readme").append("<div id='readmeText'>Programmer Q&A is a platform for users to ask and answer questions about popular programming languages.<br><br>Date created: May 9, 2016<br>Technologies used: Java, JPA, JPQL, Spring MVC, MySQL, HTML, CSS, JavaScript</div>");
+    $("#readme").append("<div id='readmeText'>Programmer Q&A is a platform for users to ask and answer questions about popular programming languages.<br><br>Created: May 9, 2016<br>Updated: <br>Technologies: Java, JPA, JPQL, Spring MVC, MySQL, HTML, CSS, JavaScript</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
@@ -19,7 +19,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Type Faster</div>");
-    $("#readme").append("<div id='readmeText'>Type Faster helps you type faster. It grabs a random word from a MySQL database of over 2000 words and you type as many as you can before the time runs out. This website uses local storage to remember your last high score initials entered.<br><br>Date created: March 4, 2016<br>Technologies used: Java, JPA, JPQL, Spring MVC, MySQL, HTML, CSS, JavaScript</div>");
+    $("#readme").append("<div id='readmeText'>Type Faster helps you type faster. It grabs a random word from a MySQL database of over 2000 words and you type as many as you can before the time runs out. This website uses local storage to remember your last high score initials entered.<br><br>Created: March 4, 2016<br>Technologies: Java, JPA, JPQL, Spring MVC, MySQL, HTML, CSS, JavaScript</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
@@ -33,7 +33,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Tic-Tac-Toe</div>");
-    $("#readme").append("<div id='readmeText'>This Tic-Tac-Toe game can be played with either a friend or against a fully functional AI.<br><br>Date created: May 23, 2016<br>Technologies used: HTML, CSS, JavaScript</div>");
+    $("#readme").append("<div id='readmeText'>This Tic-Tac-Toe game can be played with either a friend or against a fully functional AI. This game uses a mulitdemensional array to keep track of player moves and then tests to see if there is a winner after each move.<br><br>Created: May 23, 2016<br>Updated: <br>Technologies: HTML, CSS, JavaScript</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
@@ -47,7 +47,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Converter</div>");
-    $("#readme").append("<div id='readmeText'>A converter that works with many different measurements which was styled after Google's unit converter.<br><br>Date created: June 8, 2016<br>Technologies used: HTML, CSS, JavaScript</div>");
+    $("#readme").append("<div id='readmeText'>A converter that works with many different measurements which was styled after Google's unit converter.<br><br>Created: June 8, 2016<br>Updated: <br>Technologies: HTML, CSS, JavaScript</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
@@ -61,7 +61,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Mazerator</div>");
-    $("#readme").append("<div id='readmeText'>Mazerator is a game that makes you a new maze every time you play, no two times are the same! The game keeps track of the maze walls using a multidimensional array which is an X, Y plane representation of the maze. It also uses a regular array to keep track of possible paths during the building of the maze which it backtracks through once it has reached a dead end.<br><br>Date created: July 29, 2016<br>Technologies used: HTML, CSS, JavaScript, jQuery</div>");
+    $("#readme").append("<div id='readmeText'>Mazerator is a game that makes you a new maze every time you play, no two times are the same! The game keeps track of the maze walls using a multidimensional array which is an X, Y plane representation of the maze. It also uses a regular array to keep track of possible paths during the building of the maze which it backtracks through once it has reached a dead end.<br><br>Created: July 29, 2016<br>Updated: <br>Technologies: HTML, CSS, JavaScript, jQuery</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
@@ -75,7 +75,7 @@ $(document).ready(function()
     $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
     $("#readme").append("<div id='readmeExit' class='fa fa-times'></div>");
     $("#readme").append("<div id='readmeTitle'>Click It</div>");
-    $("#readme").append("<div id='readmeText'>Click It is an original game where you have to click as many colored dots as you can in 30 seconds. This game works best on touch screen devices. This website uses local storage to remember your last high score initials entered.<br><br>Date created: April 3, 2016<br>Technologies used: Java, JPA, JPQL, Spring MVC, MySQL, HTML, CSS, JavaScript</div>");
+    $("#readme").append("<div id='readmeText'>Click It is an original game where you have to click as many colored dots as you can in 30 seconds. This game works best on touch screen devices. This website uses local storage to remember your last high score initials entered.<br><br>Created: April 3, 2016<br>Updated: <br>Technologies: Java, JPA, JPQL, Spring MVC, MySQL, HTML, CSS, JavaScript</div>");
     $("#readmeExit").click(function()
     {
       $("#readme").fadeOut(300, function()
