@@ -2,7 +2,7 @@
 {
   cursor: pointer;
 }
-#readme
+#readmeWindow
 {
   position: fixed;
   left: 0;
@@ -183,8 +183,10 @@ body
 .picPosition
 {
   position: relative;
-  width: 30vw;
+  width: 100%;
   height: 30vw;
+  /*width: 100%;*/
+  /*height: 100%;*/
   margin-left: auto;
   margin-right: auto;
   /*margin-top: 5%;*/
@@ -326,7 +328,7 @@ body
   .picPosition
   {
     position: relative;
-    width: 80vw;
+    width: 80%;
     height: 80vw;
     margin-left: auto;
     margin-right: auto;
@@ -362,7 +364,7 @@ body
   }
   .picPosition
   {
-    width: 50vw;
+    width: 80%;
     height: 50vw;
   }
   #about
