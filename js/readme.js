@@ -40,6 +40,10 @@ $(document).ready(function()
       success: function(result)
       {
         $("#readmeText").html(result);
+      },
+      error: function()
+      {
+        $("#readmeText").html("Failed to load readme");
       }
     });
     $("#readmeExit").click(function()
@@ -54,7 +58,7 @@ $(document).ready(function()
   {
     $("body").append("<div id='readmeWindow'></div>").hide().fadeIn("slow");
     $("#readmeWindow").append("<div id='readmeExit' class='fa fa-times'></div>");
-    $("#readmeWindow").append("<div id='readmeTitle'>Converter</div>");
+    $("#readmeWindow").append("<div id='readmeTitle'>Unit Converter</div>");
     $("#readmeWindow").append("<div id='readmeText'></div>");
     $.ajax(
     {
@@ -62,6 +66,10 @@ $(document).ready(function()
       success: function(result)
       {
         $("#readmeText").html(result);
+      },
+      error: function()
+      {
+        $("#readmeText").html("Failed to load readme");
       }
     });
     $("#readmeExit").click(function()
@@ -76,7 +84,7 @@ $(document).ready(function()
   {
     $("body").append("<div id='readmeWindow'></div>").hide().fadeIn("slow");
     $("#readmeWindow").append("<div id='readmeExit' class='fa fa-times'></div>");
-    $("#readmeWindow").append("<div id='readmeTitle'>Mazerator</div>");
+    $("#readmeWindow").append("<div id='readmeTitle'>Maze Generator</div>");
     $("#readmeWindow").append("<div id='readmeText'></div>");
     $.ajax(
     {
@@ -84,6 +92,10 @@ $(document).ready(function()
       success: function(result)
       {
         $("#readmeText").html(result);
+      },
+      error: function()
+      {
+        $("#readmeText").html("Failed to load readme");
       }
     });
     $("#readmeExit").click(function()
@@ -120,6 +132,10 @@ $(document).ready(function()
       success: function(result)
       {
         $("#readmeText").html(result);
+      },
+      error: function()
+      {
+        $("#readmeText").html("Failed to load readme");
       }
     });
     $("#readmeExit").click(function()
