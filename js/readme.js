@@ -106,6 +106,32 @@ $(document).ready(function()
       });
     });
   });
+  $("#warriorReadme").click(function()
+  {
+    $("body").append("<div id='readmeWindow'></div>").hide().fadeIn("slow");
+    $("#readmeWindow").append("<div id='readmeExit' class='fa fa-times'></div>");
+    $("#readmeWindow").append("<div id='readmeTitle'>Warrior Project</div>");
+    $("#readmeWindow").append("<div id='readmeText'></div>");
+    $.ajax(
+    {
+      url: "../textFiles/warriorReadme.txt",
+      success: function(result)
+      {
+        $("#readmeText").html(result);
+      },
+      error: function()
+      {
+        $("#readmeText").html("Failed to load readme");
+      }
+    });
+    $("#readmeExit").click(function()
+    {
+      $("#readmeWindow").fadeOut(300, function()
+      {
+        $(this).remove();
+      });
+    });
+  });
   // $("#clickItReadme").click(function()
   // {
   //   $("body").append("<div id='readme'></div>").hide().fadeIn("slow");
