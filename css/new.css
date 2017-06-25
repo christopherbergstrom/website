@@ -37,7 +37,7 @@
   -moz-transition: all .25s;
   -ms-transition: all .25s;
   transition: all .25s;
-  color: #99ff66 !important;
+  color: #ffd700 !important;
 }
 #readmeTitle
 {
@@ -70,7 +70,7 @@
   /*background-color: #000000;*/
   /*opacity: 0.5;*/
   /*border-left: 3px solid #008060;*/
-  border-bottom: 3px solid #99ff66;
+  border-bottom: 3px solid #ffd700;
   box-shadow: 0px 0px 30px 10px #000000;
   background: url("../images/mountain.jpg") no-repeat center;
   background-size: cover;
@@ -97,10 +97,10 @@
   color: #000000;
   font-size: 2em;
   text-shadow:
-  -1px -1px 0 #99ff66,
-  1px -1px 0 #99ff66,
-  -1px 1px 0 #99ff66,
-  1px 1px 0 #99ff66;
+  -1px -1px 0 #ffd700,
+  1px -1px 0 #ffd700,
+  -1px 1px 0 #ffd700,
+  1px 1px 0 #ffd700;
 }
 .menuBody
 {
@@ -139,7 +139,7 @@
   -moz-transition: all .25s;
   -ms-transition: all .25s;
   transition: all .25s;
-  color: #99ff66 !important;
+  color: #ffd700 !important;
 }
 .copyright
 {
@@ -151,7 +151,7 @@
   /*z-index: 1000;*/
   text-align: center;
   background-color: #000000;
-  border-top: 3px solid #99ff66;
+  border-top: 3px solid #ffd700;
   box-shadow: 0px 0px 30px 10px #000000;
   /*background: url("../images/mountain.jpg") no-repeat center;*/
   /*background-size: cover;*/
@@ -194,15 +194,15 @@ body
 }
 #me
 {
-  background: url("../images/me.jpg") no-repeat center center;
+  background: url("../images/me.jpg") no-repeat center;
   background-size: cover;
   /*background-size: contain;*/
   box-shadow: 0px 0px 30px 10px #000000;
-  -ms-transform: rotate(90deg);
+  /*-ms-transform: rotate(90deg);*/
    /*IE 9*/
-  -webkit-transform: rotate(90deg);
+  /*-webkit-transform: rotate(90deg);*/
    /*Chrome, Safari, Opera*/
-  transform: rotate(90deg);
+  /*transform: rotate(90deg);*/
   /*border: 3px solid #008060;*/
 }
 .text
@@ -213,12 +213,12 @@ body
 }
 .link
 {
-  color: #99ff66 !important;
+  color: #ffd700 !important;
   text-decoration: none !important;
 }
 .link:hover
 {
-  color: #99ff66;
+  color: #ffd700;
   cursor: pointer;
 }
 .mobileSpace
@@ -240,7 +240,7 @@ body
 }
 .webLink:hover
 {
-  border: 3px solid #99ff66;
+  border: 3px solid #ffd700;
   text-decoration: none;
 }
 .webLink:active
@@ -305,6 +305,11 @@ body
 #clickItPic
 {
   background: url("../images/clickIt.png") no-repeat center center;
+  background-size: cover;
+}
+#warriorPic
+{
+  background: url("../images/warrior.png") no-repeat center center;
   background-size: cover;
 }
 @media only screen and (max-device-width: 480px)
