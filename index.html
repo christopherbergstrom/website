@@ -1,148 +1,77 @@
-<!DOCTYPE html>
-<html lang=“en”>
-<head>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="css/new.css" />
-	<link rel="icon" href="images/favicon.ico" type="image/ico" sizes="16x16"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta charset="UTF-8">
-	<title>Christopher Bergstrom</title>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="js/readme.js"></script>
-	<script src="js/scroll.js"></script>
-	<script>
-	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-	  ga('create', 'UA-82865965-1', 'auto');
-	  ga('send', 'pageview');
-	</script>
-</head>
-<body>
-	<div class="container-fluid">
-    <!-- menu -->
-    <div class="row">
-      <div class="menu">
-        <div class="menuItem">
-          <div id="menuTitle">Christopher Bergstrom</div>
-        </div>
-        <div class="menuItemMiddle">
-          <div class="menuBody"><a class="link" id="aboutLink">about</a></div>
-          <div class="menuBody"><a class="link portfolioLink">portfolio</a></div>
-          <div class="menuBody"><a class="link" href="pdf/Resume.pdf" target="_blank">resume</a></div>
-        </div>
-        <div class="menuItem">
-          <div class="menuBody"><a class="icons" href="mailto:christopherrbergstrom@gmail.com"><span class="fa fa-envelope"></span></a></div>
-          <div class="menuBody"><a class="icons" href="tel:+17206464880"><span class="fa fa-phone"></span></a></div>
-           <div class="menuBody"><a class="icons" href="https://www.linkedin.com/in/christopherbergstrom" target="_blank"><span class="fa fa-linkedin"></span></a></div>
-          <div class="menuBody"><a class="icons" href="https://github.com/christopherbergstrom" target="_blank"><span class="fa fa-github"></span></a></div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link href="libraries/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="libraries/font-awesome-4.6.3/css/font-awesome.min.css"/> -->
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="icon" href="images/favicon.ico" type="image/ico" sizes="16x16"/>
+    <title>Christopher Bergstrom</title>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="libraries/jquery-3.2.1.min.js" type="text/javascript" language="javascript"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+    <script src="js/index.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/resize.js"></script>
+    <script src="js/hover.js"></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div id="menu">
+          <a class="menuItem" id="aboutBtn">home</a>
+          <a class="menuItem" id="portfolioBtn">portfolio</a>
+          <a class="menuItem" href="">resume</a>
+          <a class="menuItem" href="mailto:christopherrbergstrom@gmail.com">email</a>
+          <a class="menuItem" href="tel:+17206464880">phone</a>
+          <a class="menuItem" href="https://www.linkedin.com/in/christopherbergstrom" target="_blank">linkedin</a>
+          <a class="menuItem" href="https://github.com/christopherbergstrom" target="_blank">github</a>
         </div>
       </div>
-		</div>
-    <!-- picture and intro -->
-    <div class="row" id="about">
-      <div class="col-md-4 col-md-offset-1">
-        <div id="me" class="img-rounded picPosition"></div>
-        <!--<iframe class="picPosition" src="http://www.youtube.com/embed/UEVPau06Lbs" frameborder="0" allowfullscreen></iframe>-->
+      <div class="row">
+        <div class="about text col-md-6 col-md-offset-1">
+          <span id="name">Christopher Bergstrom</span><br>
+          <span id="pronunciation">KRIS-TOH-FER BURG-strum</span><br>
+          <span id="noun">noun</span><br>
+          <ol>
+            <li class="desc">
+                a web developer.
+            </li>
+            <li class="desc">
+                one who has a passion for back end development.
+            </li>
+            <li class="desc">
+                a person who is currently located in beautiful Southern California.
+            </li>
+          </ol>
+        </div>
       </div>
-      <div class="col-md-4 col-md-offset-1">
-        <p class="text">Hi, I'm Chris. I love coding.</p>
-        <p class="text">I pride myself on the work that I do and I always strive for perfection. If you're impressed with my skills and would like to contact me, feel free to <a class="link" href="mailto:christopherrbergstrom@gmail.com">reach out.</a> :)</p>
-        <!--<p class="text">I pride myself on the work that I do and I always strive for perfection. If you want to know more about me read my <span class="link" id="bioReadme">bio.</span> If you're impressed with my skills and would like to contact me, feel free to <a class="link" href="mailto:christopherrbergstrom@gmail.com">reach out.</a> :)</p>-->
+      <div class="row">
+        <div id="portfolio" class="col-md-1 col-md-offset-1">portfolio</div>
+      </div>
+      <!-- row 1 -->
+      <div id="firstProjectRow" class="row">
+        <!-- wifiby -->
+        <div id="wifiby" class="col-md-4 col-md-offset-1 project background"></div>
+        <!-- warrior project -->
+        <div id="warrior" class="col-md-4 col-md-offset-2 project background"></div>
+      </div>
+      <!-- row 2 -->
+      <div class="row">
+        <!-- maze generator -->
+        <div id="maze" class="col-md-4 col-md-offset-1 project background"></div>
+        <!-- tic-tac-toe -->
+        <div id="tic-tac-toe" class="col-md-4 col-md-offset-2 project background"></div>
+      </div>
+      <!-- picture of me -->
+      <div class="row">
+        <div id="mePic" class="col-md-4 col-md-offset-4 background"></div>
       </div>
     </div>
-    <!-- arrow down -->
-    <div class="row down portfolioLink">
-      <div class="col-md-2 col-md-offset-5"><a class="link"><span class="fa fa-angle-down"></span></a></div>
-    </div>
-    <!-- portfolio -->
-    <div class="row projectRowTop" id="portfolio">
-    <!--  <div class="col-md-4 mobileSpace">-->
-    <!--    <div id="programmerQAPic" class="projectPicPosition img-rounded"></div>-->
-    <!--    <p class="title">Programmer Q&A</p>-->
-				<!--<div class="descLinks">-->
-				<!--	<a class="webLink icons" href="http://programmerqa.com" target="_blank"><span class="fa fa-eye"></a></a>-->
-				<!--	<a class="webLink icons" href="https://github.com/christopherbergstrom/ProgrammerQA" target="_blank"><span class="fa fa-github"></a></a>-->
-				<!--	<div class="webLink icons readme" id="programmerQAReadme"><span class="fa fa-file-text-o"></div>-->
-				<!--</div>-->
-    <!--  </div>-->
-			<div class="col-md-6 mobileSpace">
-				<div id="warriorPic" class="projectPicPosition img-rounded"></div>
-				<p class="title">Warrior Project</p>
-				<div class="descLinks">
-  				<a class="webLink icons" href="warrior/warrior.html" target="_blank"><span class="fa fa-play"></a>
-  				<a class="webLink icons" href="https://github.com/christopherbergstrom/warriorProjectWeb" target="_blank"><span class="fa fa-github"></a>
-  				<div class="webLink icons readme" id="warriorReadme"><span class="fa fa-file-text-o"></div>
-				</div>
-			</div>
-			<div class="col-md-6 mobileSpace">
-        <div id="converterPic" class="projectPicPosition img-rounded"></div>
-        <p class="title">Unit Converter</p>
-				<div class="descLinks">
-					<a class="webLink icons" href="converter/converter.html" target="_blank"><span class="fa fa-eye"></a>
-					<a class="webLink icons" href="https://github.com/christopherbergstrom/converter" target="_blank"><span class="fa fa-github"></a>
-					<div class="webLink icons readme" id="converterReadme"><span class="fa fa-file-text-o"></div>
-				</div>
-      </div>
-
-    <!--  <div class="col-md-4 mobileSpace">-->
-    <!--    <div id="typeFasterPic" class="projectPicPosition img-rounded"></div>-->
-    <!--    <p class="title">Type Faster</p>-->
-				<!--<div class="descLinks">-->
-				<!--	<a class="webLink icons" href="http://christopherbergstrom.com:8080/TypeFaster" target="_blank"><span class="fa fa-play"></a>-->
-				<!--	<a class="webLink icons" href="https://github.com/christopherbergstrom/TypeFaster" target="_blank"><span class="fa fa-github"></a>-->
-				<!--	<div class="webLink icons readme" id="typeFasterReadme"><span class="fa fa-file-text-o"></div>-->
-				<!--</div>-->
-    <!--  </div>-->
-    </div>
-    <div class="row projectRowBottom">
-			<!--<div class="col-md-4 mobileSpace">-->
-			<!--	<div id="tic-tac-toePic" class="projectPicPosition img-rounded"></div>-->
-			<!--	<p class="title">Tic-Tac-Toe</p>-->
-			<!--	<div class="descLinks">-->
-  	<!--			<a class="webLink icons" href="tic-tac-toe/tic-tac-toe.html" target="_blank"><span class="fa fa-play"></a>-->
-  	<!--			<a class="webLink icons" href="https://github.com/christopherbergstrom/tic-tac-toe" target="_blank"><span class="fa fa-github"></a>-->
-  	<!--			<div class="webLink icons readme" id="tic-tac-toeReadme"><span class="fa fa-file-text-o"></div>-->
-			<!--	</div>-->
-			<!--</div>-->
-      <div class="col-md-6 mobileSpace">
-				<div id="mazePic" class="projectPicPosition img-rounded"></div>
-				<p class="title">Maze Generator</p>
-				<div class="descLinks">
-  				<a class="webLink icons" href="maze/maze.html" target="_blank"><span class="fa fa-play"></a>
-  				<a class="webLink icons" href="https://github.com/christopherbergstrom/maze" target="_blank"><span class="fa fa-github"></a>
-  				<div class="webLink icons readme" id="mazeReadme"><span class="fa fa-file-text-o"></div>
-				</div>
-			</div>
-			<div class="col-md-6 mobileSpace">
-				<div id="tic-tac-toePic" class="projectPicPosition img-rounded"></div>
-				<p class="title">Tic-Tac-Toe</p>
-				<div class="descLinks">
-  				<a class="webLink icons" href="tic-tac-toe/tic-tac-toe.html" target="_blank"><span class="fa fa-play"></a>
-  				<a class="webLink icons" href="https://github.com/christopherbergstrom/tic-tac-toe" target="_blank"><span class="fa fa-github"></a>
-  				<div class="webLink icons readme" id="tic-tac-toeReadme"><span class="fa fa-file-text-o"></div>
-				</div>
-			</div>
-    <!--  <div class="col-md-4 mobileSpace">-->
-    <!--    <div id="clickItPic" class="projectPicPosition img-rounded"></div>-->
-    <!--    <p class="title">Click It</p>-->
-				<!--<div class="descLinks">-->
-				<!--	<a class="webLink icons" href="http://christopherbergstrom.com:8080/ClickIt" target="_blank"><span class="fa fa-play"></a>-->
-				<!--	<a class="webLink icons" href="https://github.com/christopherbergstrom/ClickIt" target="_blank"><span class="fa fa-github"></a>-->
-				<!--	<div class="webLink icons readme" id="clickItReadme"><span class="fa fa-file-text-o"></div>-->
-				<!--</div>-->
-    <!--  </div>-->
-    </div>
-    <!--copyright-->
-		<div class="row">
-			<div class="col-md-11 copyright">
-				<p>Copyright © Christopher Bergstrom 2017</p>
-				<p>All Rights Reserved.</p>
-			</div>
-		</div>
-	</div>
-</body>
+  </body>
 </html>

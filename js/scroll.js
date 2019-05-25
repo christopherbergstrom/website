@@ -1,16 +1,14 @@
 $(document).ready(function()
 {
-  $("#aboutLink").click(function()
+  // console.log($("#wifiby").outerHeight());
+  // console.log($("#wifiby").outerWidth());
+  $("#aboutBtn").click(function()
   {
-    var scrollAmount = $("#about").offset().top;
-    $('html,body').animate({scrollTop: scrollAmount}, 200);
+    // var scrollAmount = $("#aboutBtn").offset().top;
+    $('html,body').animate({scrollTop: 0}, 750);
   });
-  $(".portfolioLink").click(function()
+  $("#portfolioBtn").click(function()
   {
-    var scrollAmount = $("#portfolio").offset().top;
-    $('html,body').animate(
-      {
-        scrollTop: scrollAmount
-      }, 200);
+    $('html,body').animate({scrollTop: $(".about").outerHeight(true)}, 750);
   });
 });
