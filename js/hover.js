@@ -28,7 +28,7 @@ $(document).ready(function()
       case "maze": {
         view="maze/maze.html";
         github="https://github.com/christopherbergstrom/maze";
-        break;z ``
+        break;
       }
       case "tic-tac-toe": {
         view="tic-tac-toe/tic-tac-toe.html";

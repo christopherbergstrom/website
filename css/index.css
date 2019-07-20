@@ -1,0 +1,126 @@
+header, section, footer, aside, nav, main, article, figure 
+{
+    display: block; 
+}
+.imgOfMe
+{
+    width: 15vw;
+    height: 15vw;
+    background-image: url("../images/me.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+.width
+{
+    width: 70vw;
+    margin: auto;
+}
+header
+{
+    background-image: url("../images/test2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nameContact
+{
+    margin: auto;
+    font-size: 1.2em;
+}
+.nameContact div:nth-child(2)
+{
+    margin-right: 16px;
+}
+.titleBig
+{
+    font-size: 2em;
+    font-weight: bold;
+}
+.titleMedium
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.wifiBy
+{
+    background-image: url("../images/wifiby.png");
+}
+.warrior
+{
+    background-image: url("../images/warrior.png");
+}
+.maze
+{
+    background-image: url("../images/maze.png");
+}
+.tic-tac-toe
+{
+    background-image: url("../images/tic-tac-toe.png");
+}
+.concept
+{
+    background-image: url("../images/space.jpg");
+}
+.work
+{
+    height: 25vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+}
+footer
+{
+    margin-top: 5vh;
+}
+@media only screen and (max-width: 700px)
+{
+    .imgOfMe
+    {
+        width: 35vw;
+        height: 35vw;
+    }
+}
+@media only screen and (max-width: 600px) 
+{
+    .nameContact div:nth-child(2)
+    {
+        margin-right: 0;
+    }
+    .work
+    {
+        height: 60vw;
+    }
+}
+.exitBtn
+{
+    background-color: #F2F2F2;
+}
+.form
+{
+    padding: 24px;
+    background-color: #F2F2F2;
+}
+.form *
+{
+    display: block;
+    padding: 12px;
+}
+.form span
+{
+    display: inline;
+}
+.input
+{
+    width: 100%;
+}
+input[type=submit]
+{
+    margin-top: 12px;
+}
+.error
+{
+    color: red;
+}
