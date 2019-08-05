@@ -1,6 +1,6 @@
-header, section, footer, aside, nav, main, article, figure 
+header, section, footer, aside, nav, main, article, figure
 {
-    display: block; 
+    display: block;
 }
 .imgOfMe
 {
@@ -83,7 +83,7 @@ footer
         height: 35vw;
     }
 }
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 600px)
 {
     .nameContact div:nth-child(2)
     {
