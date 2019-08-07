@@ -2,6 +2,10 @@ header, section, footer, aside, nav, main, article, figure
 {
     display: block;
 }
+.wrapper
+{
+  overflow-x: hidden;
+}
 .imgOfMe
 {
     width: 15vw;
@@ -46,6 +50,10 @@ header
 .wifiBy
 {
     background-image: url("../images/wifiby.png");
+}
+.brandonMyers
+{
+    background-image: url("../images/brandonMyers.png");
 }
 .warrior
 {
