@@ -94,13 +94,9 @@ header
 {
     background-image: url("../images/tic-tac-toe.png");
 }
-.concept
-{
-    background-image: url("../images/space.jpg");
-}
 .work
 {
-    height: 25vw;
+    height: calc((35vw - 40px) / 2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,7 +128,7 @@ footer
     }
     .work
     {
-        height: 60vw;
+        height: calc((100vw - 64px) / 2);;
     }
 }
 .exitBtn
