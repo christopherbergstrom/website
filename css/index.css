@@ -28,6 +28,14 @@ header
     background-repeat: no-repeat;
     background-size: cover;
 }
+header p:first-child {
+    font-size: 2em;
+    margin: 10px 0px;
+}
+header p:nth-child(2) {
+    font-size: 1.2em;
+    margin: 10px 0px;
+}
 .nameContact
 {
     margin: auto;
@@ -64,14 +72,7 @@ header
 {
     background-color: #ddd;
 }
-.titleBig
-{
-    font-size: 2em;
-    font-weight: bold;
-}
-.titleMedium
-{
-    font-size: 1.5em;
+.titles {
     font-weight: bold;
 }
 .wifiBy
